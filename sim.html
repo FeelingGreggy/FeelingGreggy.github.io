@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREG SIMULATOR</title>
+    <script src="simLogic.js" defer></script>
+    <link href="GREG.css" rel="stylesheet">
+    <link href="greg2.jpg" rel="icon">
+</head>
+
+<body>
+
+    <a href="index.html" style="text-decoration: none;">
+        <h1 id="intro">Gregory Miller Points</h1>
+    </a>
+
+    <h2 id="age">THE NEW AGE OF CRYPTO</h2>
+
+    <a href="index.html" class="warp">RETURN TO HOMEPAGE</a>
+
+    <h1 id="simIdea">Welcome to "<span id="targetMe">GREG SIMULATOR</span>" ! Your task is to be as GREG
+        as possible. Choose carefully and think before you answer. The final judgement
+        is yours, kiddo!
+    </h1>
+
+    <button id="resetGame" onclick="gameReset()" ;>NEW GAME</button>
+
+    <br>
+
+    <h1 class="des">// THIS WILL NOT RESET TROPHIES</h1>
+
+    <hr style="border-color: khaki;">
+
+    <h2 class="story" style="font-size: 40pt;" id="questionNumber" onclick="battleOnTheBigBridge()" ;>QUESTION I</h2>
+
+    <h2 class="story" id="cycleQuestion">You just woke up. Are you attending school for the day?</h2>
+
+    <br>
+
+    <button class="storyChoice" onclick="one(0)" ; id="button1">YES</button>
+
+    <br><br><br> <!-- OH BABY A TRIPLE !!!!!!!!!  -->
+
+    <button class="storyChoice" onclick="one(1)" ; id="button2">NO</button>
+
+    <p id="simPoints">GREG LEVEL:<span id="simPointsTarget" onmouseenter="hoverColorCheck()" ;>0</span></p>
+
+    <br>
+
+    <hr style="border-color: slateblue;">
+
+    <h1 id="trophyHeader">Trophies</h1>
+
+    <h2 class="trophyTitle" id="plat">Platinum Trophy : GOOD KIDDO </h2>
+
+    <h3 class="trophyDes" id="platDes">Ascertain all trophies</h3>
+
+    <h2 class="trophyTitle gold" id="T1">BIG BRIDGE</h2>
+
+    <h3 class="trophyDes" id="T1Des">It's a big bridge...</h3>
+
+    <h3 class="trophyTitle silver" id="T2">OH BABY A TRIPLE</h3>
+
+    <h2 class="trophyDes" id="T2Des">Answer three questions correctly in a row</h2>
+
+    <h3 class="trophyTitle gold" id="T3">TRUE COLORS</h3>
+
+    <h2 class="trophyDes" id="T3Des">Show your true colors</h2>
+
+    <h3 class="trophyTitle bronze" id="T4">HOVERING</h3>
+
+    <h2 class="trophyDes" id="T4Des">Hover over a certain element and invert the colors</h2>
+
+    <h3 class="trophyTitle bronze" id="T5">Task Completed</h3>
+
+    <h2 class="trophyDes" id="T5Des">Finish GREG SIMULATOR</h2>
+
+    <h3 class="trophyTitle bronze" id="T6">NEW GAME+</h3>
+
+    <h2 class="trophyDes" id="T6Des">Complete a second playthorugh of GREG SIMULATOR</h2>
+
+    <div id="video-container">
+        <video id="my-video" controls>
+            <source src="gilgamesh.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+    <p id="terms">All sales are final. Tokens may take up to 30 days to be fully processed and appear in your wallet.
+        All sales include access
+        to the Gregory Miller Points help-line which can be reached at (352-726-8905). You can also visit our help page
+        for
+        contact infomation and FAQ's. Taxes may be added to your order total depending
+        on your <span id="lith"><a href="lith.html">location</a></span>. We thank you for your purchase and hope to
+        continue to change the world of currency one token at a time. </p>
+
+</body>
+
+</html>
