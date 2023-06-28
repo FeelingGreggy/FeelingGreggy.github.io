@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Gajraj+One&family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+/* Wild West Font */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Smokum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* NEO ORBITRON */
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+/*     font-family: 'Orbit', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+:root {
+    --bronze: #CD7F32;
+  }
+  
+
+*{
+text-shadow:magenta 3px 0 10px;
+
+}
+
+.gregged {
+    background-image: url("greg2.jpg");
+}
+
+#intro{
+
+color:yellow;
+text-align: center;
+font-size: 175px;
+box-shadow:lightgreen 10pt 10pt 10pt 10pt;
+text-shadow: #000000 10px 0 5px;
+font-family: 'Julee', cursive;
+background-image: url("lava.jpg");
+font-family: 'Comic Neue', cursive;
+
+
+}
+
+body{
+    background-color:#000000;
+
+}
+
+#sub{
+    color:lime;
+    text-align: center;
+    font-size: 35px;
+}
+
+#cowboy{
+    font-family: 'Smokum', cursive;
+    color:lime;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+#home-login{
+text-decoration: none;}
+
+#prize_header{
+    text-align: center;
+    color: lime;
+    border-color:red ;
+    border-style: dotted;
+    border-width: 10pt;
+    font-size: 30pt;
+}
+.prizes{
+
+    color: lime;
+    text-align: center;
+
+}
+
+#lith{
+    text-decoration: none;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+}
+
+#fancyGreg{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    height: 700px;
+    width: 600px;
+}
+
+#pic{
+
+    width: 600px;
+    height:600px;
+}
+
+#saus{
+    width: 600px;
+    height:600px;
+
+}
+
+#pic:hover {
+    filter: saturate(5000);
+}
+
+/*Jereimah Size Font */
+
+.des{
+    text-align: center;
+    color: gold;
+    font-style: italic;
+    font-size: 5pt;
+
+}
+
+#website{
+    
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+}
+
+#cash{
+    text-align: center;
+    color: lime;
+    font-size:50pt;
+    border-color: red;
+    border-style: dotted;
+    border-width: 10pt;
+
+
+}
+
+#chart{
+    justify-content: center;
+    border: gold;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+#token_value{
+    text-align: center;
+    color: lightskyblue;
+
+}
+
+#s_header, #story{
+    text-align: center;
+    font-family: "julee";
+}
+
+#s_header{
+color:lime ;
+font-size: 100px;
+border-color:turquoise ;
+border-style: dotted;
+border-width: 10pt;
+background-image: url("water.jpg");
+filter: blur(2px);
+}
+
+#story{
+    text-align: center;
+    color: lightskyblue;
+    font-size: 25px;
+}
+
+#age, #news{
+    text-align: center;
+    color: lime;
+    font-size: 75pt;
+    
+   
+}
+
+#age{
+    border-color: slateblue;
+    border-style: groove;
+    background-image: url("galaxy.jpg");
+}
+
+#email{
+    display: block;
+    margin: auto;
+    font-size: 15pt;
+    width: 50%;
+    border:groove 10px yellow;
+    text-align: center;
+}
+
+#age, #cash, #prize_header,#NEOage{
+    font-family: "Gajraj One";
+}
+#sub, #story, #intro{
+    font-family: 'comic sans', cursive;
+}
+
+#sub, #story{
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#chaos{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color:lime;
+    background-color: #d213e4;
+    border-style: solid;
+    border-radius: 5pt;
+    border-color: red;
+}
+
+#ready{
+    text-align: center;
+    color: lime;
+    font-size:50pt;
+    border-color: red;
+    border-style: dotted;
+    border-width: 10pt;
+    font-family: 'Mynerve', cursive;
+
+}
+
+.warp{
+    text-align: center;
+    color: goldenrod;
+    font-size:50pt;
+    border-color: gold;
+    border-style:ridge;
+    border-width: 10px;
+    font-family: 'Rubik Iso', cursive;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+#red_reboot{
+    color:#000000;
+    text-align: center;
+    font-size: 50pt;
+    border-color: maroon;
+    border-style: ridge;
+    border-width: 10px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-image: url(beep.jfif);
+
+}
+#intro{
+    font-family: 'Acme', sans-serif;
+
+}
+/* BUY.html tags */
+
+
+#jp{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#neoWallet, #global-value{
+    color: lime;
+    text-shadow: aqua 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 100pt;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#confirmTotal{
+    color: lime;
+    text-align: center;
+    font-size: 75pt;
+    font-family: 'Orbitron', sans-serif;
+
+
+}
+
+#creditCard{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    height: 300px;
+    width:400px;
+}
+
+#payment{
+    display: block;
+    margin: auto;
+    font-size: 15pt;
+    width: 50%;
+    border:groove 10px yellow;
+    text-align: center;
+    width: 65%;
+
+}
+
+#packages{
+    text-align: center;
+    color: lime;
+    font-size:80pt;
+    border-color: red;
+    border-style: dotted;
+    border-width: 10pt;
+
+
+}
+
+.sales_pitch{
+    font-family: 'Tenor Sans', sans-serif;
+    text-align: center;
+    color: lime;
+    font-size: 35pt;
+    
+
+}
+
+#merch{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color:lime;
+    background-color: #d213e4;
+    border-style: solid;
+    border-radius: 5pt;
+    border-color: red;
+
+}
+
+#terms{
+    text-align: center;
+    border-color: red;
+    border-style: double;
+    border-width: 2px;
+    color: lime;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#more{
+    border-color: gold;
+    border-style: dashed;
+    color: goldenrod;
+}
+
+#mini_note{
+    color:lime;
+    text-align: center;
+    font-size: 4pt;
+}
+
+/* help.html tags */
+
+.faq_header{
+    text-align: center;
+    font-size: 75px;
+    color: lime;
+}
+
+.faq{
+    text-align: center;
+    color: lime;
+    font-size: 45pt;
+    font-family: "julee";
+
+}
+
+.answers{
+    font-size: 25pt;
+    text-align: center;
+    font-family: 'Iceland', cursive;
+    color: #280fe4;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+#golden{
+    border: rgba(112, 7, 150, 0.687);
+    border-style: solid;
+    border-width: 7px;
+}
+
+#contact_header{
+    text-align: center;
+    color: lime;
+    font-size: 55pt;
+    font-family: "Gajraj One";
+
+
+}
+
+.contact_info{
+    color: lime;
+    font-size: 35pt;
+    text-align: center;
+    font-family: 'Mynerve', cursive;
+
+
+}
+
+/* sim.html tags */
+
+#simIdea{
+    text-align: center;
+    color: navy;
+    font-size: 55pt;
+    font-family: 'Iceland', cursive;
+    text-shadow: orangered 2px 2px;
+    -webkit-text-stroke: rgb(153, 0, 255) 2px;
+}
+
+#simPoints{
+    text-align: center;
+    font-family: 'Smokum', cursive;
+    font-size: 55pt;
+    font-style: italic;
+    font-weight: bold;
+    color: yellow;
+}
+
+#simPointsTarget{
+    color: lime;
+    -webkit-text-stroke: #0fc4e4 1px;
+}
+
+#simPointsTarget:hover{
+    color: #0fc4e4;
+    -webkit-text-stroke: lime 1px;
+
+}
+
+.story{
+    text-align: center;
+    color: lime;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20pt;
+}
+
+.storyChoice{
+    margin:auto;
+    display: flex;
+    justify-self: center;
+    font-size: 30pt;
+    text-align: center;
+    color: lime;
+    background-color: #000000;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 4px;
+    border-radius: 10%;
+}
+
+#trophyHeader{
+    font-family: 'Orbit', sans-serif;
+    text-align: center;
+    color: #0f99e4;
+    font-size: 60pt;
+    font-weight: bold;
+    text-shadow: none;
+    -webkit-text-stroke: #0f21e4 1px;
+}
+
+#resetGame{
+    margin :auto;
+    display: flex;
+    justify-self: center;
+    color: red;
+    text-align: center;
+    font-size: 44pt;
+    background-color: #000000;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 4px;
+    border-radius: 10%;
+
+}
+
+#plat{
+    text-align: center;
+    color: aqua;
+}
+
+.trophyDes, .trophyTitle, .gold{
+    text-shadow: none;
+}
+
+.trophyTitle{
+    font-size: 25pt;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.trophyDes{
+    font-size: 15pt;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: gainsboro;
+}
+
+.gold{
+    color: gold;
+}
+
+.silver{
+    color: silver;
+}
+
+.bronze{
+    color: var(--bronze) ;
+}
+
+#video-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: "100vh";
+    height: 100vh;
+}
+
+#targetMe{
+    -webkit-text-stroke: #000000 1px;
+    text-shadow: none;
+    font-weight: bolder;
+}
+  
+/* shop.html tags */
+
+#storeIntro{
+    text-align: center;
+    color: #0fc4e4;
+    font-size: 60pt;
+    font-family: 'Iceland', cursive;
+    border-style: dotted;
+    border-width: 11px;
+    border-color: red;
+}
+
+#storeMode{
+    color: lime;
+    font-size: 25pt;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    background-color: gray;
+}
+
+#shirtPic{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    height: 450px;
+    width: 400px;
+}
+
+
+#shirtDes , #shirtDes2, #shirtDes3{
+    text-align: center;
+    font-size: 30pt;
+    color: #ed1115;
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+
+#shirtDes2, #mugDES_OG{
+    color: #c8e40f;
+    font-size: 20pt;
+    font-style: italic;
+    text-align: center;
+}
+
+#shirtDes3{
+    color: #04f7f7;
+    font-size: 15pt;
+    font-family: 'Julee', cursive;
+
+}
+
+#shirtbox{
+    height: 40px;
+    width: 40px;
+}
+
+#hideBox{
+    visibility: hidden;
+}
+
+#nullShopMusic{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    color: #c8e40f;
+    text-align: center;
+    background-color: #280fe4;
+    border-radius: 10%;
+    border-color: deeppink;
+    border-width: 2px;
+    font-size: 25pt;
+}
+
+#shopDesOMEGA{
+    text-align: center;
+    color: lime;
+    font-size: 40pt;
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+
+#underlineTarget{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    color: navy;
+    text-shadow: red 2px 2px;
+    font-family: "Gajraj One";
+    -webkit-text-stroke: white 1px;
+
+}
+
+#storeBar{
+    border-top-color: #d213e4;
+}
+
+#mugTitle{
+    text-align: center;
+    font-size: 30pt;
+    color: #ed1115;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#mugPic{
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    height: 400px;
+    width: 400px;
+}
+
+#mugDES{
+    text-align: center;
+    color: #04f7f7;
+    font-size: 15pt;
+    font-family: 'Julee', cursive;
+}
+
+#mugDES_OG{
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#taxConcat{
+    text-align: center;
+    font-size: 30pt;
+    color: crimson;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+#taxConcat:hover{
+    color: #0f99e4;
+    text-shadow: #c8e40f 2px 2px;
+}
